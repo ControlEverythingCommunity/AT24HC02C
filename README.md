@@ -1,12 +1,12 @@
-[![A13XX](ADC121C_A13XX.png)](https://www.controleverything.com/content/Hall-Effect?sku=ADC121C_A13XX_I2CS_A1304ELHLX-05-T)
-# A13XX
-A13XX Hall Effect Sensor.
+[![AT24HC02C](AT24HC02C_I2CMEM.png)](https://www.controleverything.com/content/I2C-Memory?sku=AT24HC02C_I2CMEM)
+# AT24HC02C
+AT24HC02C Memory Sensor
 
-The A13XX provides a linear voltage output in proportion to a magnetic field.
+The AT24HC02C device, is a 256-byte serial EEPROM using I²C communications.
 
-This Device is available from ControlEverything.com [SKU: ADC121C_A13XX_I2CS_A1304ELHLX-05-T]
+This Device is available from ControlEverything.com [SKU: AT24HC02C_I2CMEM]
 
-https://www.controleverything.com/content/Hall-Effect?sku=ADC121C_A13XX_I2CS_A1304ELHLX-05-T
+https://www.controleverything.com/content/I2C-Memory?sku=AT24HC02C_I2CMEM
 
 This Sample code can be used with Raspberry pi, Arduino and Particle.
 
@@ -19,12 +19,12 @@ Download (or git pull) the code in pi.
 
 Compile the java program.
 ```cpp
-$> pi4j A13XX.java
+$> pi4j AT24HC02C.java
 ```
 
 Run the java program.
 ```cpp
-$> pi4j A13XX
+$> pi4j AT24HC02C
 ```
 
 ## Python
@@ -35,7 +35,7 @@ https://pypi.python.org/pypi/smbus-cffi/0.5.1
 Download (or git pull) the code in pi. Run the program.
 
 ```cpp
-$> python A13XX.py
+$> python AT24HC02C.py
 ```
 
 ## Arduino
@@ -62,4 +62,4 @@ Verify and flash the code on your Photon. Code output is shown in logs at dashbo
 
 https://dashboard.particle.io/user/logs
 
-#####The code output is the magnetic angle.
+#####The code output is the stored value of data.
